@@ -15,14 +15,16 @@ const CartItem = () => {
 
             <p className="cartitem__price">$499.99</p>
 
-            <select>
-                <option value="1"></option>
-                <option value="2"></option>
-                <option value="3"></option>
-                <option value="4"></option>
+            <select className="cartitem__select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
             </select>
 
-            <button></button>
+            <button className="cartitem__deleteBtn">
+                <i className="fas fa-trash"></i>   
+            </button>
         </div>
     )
 }
